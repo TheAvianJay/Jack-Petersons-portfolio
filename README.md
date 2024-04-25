@@ -1,23 +1,22 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Here is a software program I have been working on to help improve my talent that I have in software engineering. This is where I experiment with functions and ideas that come to mind when I am working on these programs
 
-{Provide a description of your software}
+The software are simple when you look at them here from a simple choose your own adventure to a program that keeps track of peoples bank information and keeps track of how long  they spent on the system before leaving along with data on the date and time in which they accessed the bank account.
 
-{Describe your purpose for creating this software.}
+The purpose of me creating these software is to demonstrate what kinds of programs I can make and the many factors I take into consideration.
 
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+Here is a video demo of a very simple program.
+[Software Demo Video](https://youtu.be/tdK2gV1ISSM)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used}
+Visual Studio code
+Python 3.10.11 64-bit
+Git/Github
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [w3schools](https://www.w3schools.com/python/)
+* [Codecademy](https://www.codecademy.com)
