@@ -1,0 +1,15 @@
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\bin\Debug\net7.0\Weather_report.exe
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\bin\Debug\net7.0\Weather_report.deps.json
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\bin\Debug\net7.0\Weather_report.runtimeconfig.json
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\bin\Debug\net7.0\Weather_report.dll
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\bin\Debug\net7.0\Weather_report.pdb
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.csproj.AssemblyReference.cache
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.AssemblyInfoInputs.cache
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.AssemblyInfo.cs
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.csproj.CoreCompileInputs.cache
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.dll
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\refint\Weather_report.dll
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.pdb
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\Weather_report.genruntimeconfig.cache
+C:\Users\jrpga\Documents\Jack Petersons portfolio\Weather_report\obj\Debug\net7.0\ref\Weather_report.dll
