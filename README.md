@@ -8,6 +8,7 @@ The purpose of me creating these software is to demonstrate what kinds of progra
 
 Here is a video demo of a very simple program.
 [Software Demo Video](https://youtu.be/tdK2gV1ISSM)
+[C# demo video](https://youtu.be/NFh6EmAa9Wo)
 
 # Development Environment
 
