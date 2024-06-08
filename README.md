@@ -9,6 +9,10 @@ The purpose of me creating these software is to demonstrate what kinds of progra
 Here is a video demo of a very simple program.
 [Software Demo Video](https://youtu.be/tdK2gV1ISSM)
 [C# demo video](https://youtu.be/NFh6EmAa9Wo)
+[Simple Choose Your Own Adventure program](https://youtu.be/z2iA7mZKqtk)
+
+Below is a demo of my SQL database I put together
+[SQL database demo](https://youtu.be/F06K_2CcHAA)
 
 # Development Environment
 
