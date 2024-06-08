@@ -14,6 +14,9 @@ Here is a video demo of a very simple program.
 Below is a demo of my SQL database I put together
 [SQL database demo](https://youtu.be/F06K_2CcHAA)
 
+Below is a demo of my SQL database I put together
+[SQL database demo](https://youtu.be/F06K_2CcHAA)
+
 # Development Environment
 
 Visual Studio code
