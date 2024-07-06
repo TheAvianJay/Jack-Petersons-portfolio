@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjy6fw8wkgwtn"]
+
+[ext_resource type="Texture2D" uid="uid://th0d8f64eh0g" path="res://art/platform.png" id="1_pojd4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r3mun"]
+size = Vector2(1483, 86)
+
+[node name="TileMap" type="TileMap"]
+format = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1.5, -2)
+shape = SubResource("RectangleShape2D_r3mun")
+
+[node name="Platform" type="Sprite2D" parent="."]
+position = Vector2(0.249969, -2.5)
+scale = Vector2(4.93833, 2.93103)
+texture = ExtResource("1_pojd4")

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://1ih5e3wo0mlw"]
+
+[ext_resource type="Script" path="res://player_arms.gd" id="1_ult0f"]
+[ext_resource type="PackedScene" uid="uid://drsntwpdhsocc" path="res://bullet.tscn" id="2_7f8jp"]
+[ext_resource type="Texture2D" uid="uid://dbpon7o180wv2" path="res://art/arm_placeholder.png" id="2_cwf1x"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1tanp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_cwf1x")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+script = ExtResource("1_ult0f")
+bullet = ExtResource("2_7f8jp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(42, -1)
+sprite_frames = SubResource("SpriteFrames_1tanp")
+
+[node name="guncooldown" type="Timer" parent="."]
+wait_time = 0.3
+
+[node name="muzzle" type="Marker2D" parent="."]
+position = Vector2(77, -5)
+
+[connection signal="timeout" from="guncooldown" to="." method="_on_guncooldown_timeout"]

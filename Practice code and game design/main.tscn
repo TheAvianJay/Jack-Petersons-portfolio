@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://bud3i3kw4voj8"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_gdcol"]
+[ext_resource type="PackedScene" uid="uid://cjy6fw8wkgwtn" path="res://dev_room.tscn" id="2_5agmn"]
+[ext_resource type="PackedScene" uid="uid://dypaww2cd5o2p" path="res://character_body_2d.tscn" id="3_0ruig"]
+[ext_resource type="PackedScene" uid="uid://1ywyndp3tofp" path="res://breakable.tscn" id="4_6cxce"]
+[ext_resource type="PackedScene" uid="uid://b0ip38v6mki0q" path="res://flag.tscn" id="5_tjegi"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_gdcol")
+
+[node name="jack" parent="." instance=ExtResource("3_0ruig")]
+position = Vector2(383, 235)
+
+[node name="TileMap" parent="." instance=ExtResource("2_5agmn")]
+position = Vector2(903, 708)
+
+[node name="TileMap2" parent="." instance=ExtResource("2_5agmn")]
+position = Vector2(2581, 540)
+
+[node name="TileMap3" parent="." instance=ExtResource("2_5agmn")]
+position = Vector2(4844, 732)
+
+[node name="TileMap4" parent="." instance=ExtResource("2_5agmn")]
+position = Vector2(6591, 720)
+
+[node name="TileMap5" parent="." instance=ExtResource("2_5agmn")]
+position = Vector2(8499, 708)
+
+[node name="breakable" parent="." instance=ExtResource("4_6cxce")]
+position = Vector2(1865, 347)
+
+[node name="breakable2" parent="." instance=ExtResource("4_6cxce")]
+position = Vector2(7777, 515)
+
+[node name="flag" parent="." instance=ExtResource("5_tjegi")]
+position = Vector2(9103, 635)

@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://b0ip38v6mki0q"]
+
+[ext_resource type="Script" path="res://flag.gd" id="1_co17s"]
+[ext_resource type="Texture2D" uid="uid://f4wio35s7td" path="res://art/flag_placeholder.png" id="1_lyl4o"]
+[ext_resource type="PackedScene" uid="uid://ceufnyeejuc3y" path="res://victory_screen.tscn" id="2_nmrpg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3im5e"]
+size = Vector2(112, 161)
+
+[node name="flag" type="Area2D"]
+script = ExtResource("1_co17s")
+victory_screen = ExtResource("2_nmrpg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(40, -54.5)
+shape = SubResource("RectangleShape2D_3im5e")
+
+[node name="FlagPlaceholder" type="Sprite2D" parent="."]
+position = Vector2(13, -60)
+texture = ExtResource("1_lyl4o")
+
+[connection signal="body_shape_entered" from="." to="." method="_on_body_shape_entered"]
